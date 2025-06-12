@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Day Card</title>
+    <title>Apology Letter</title>
     <style>
         body {
             background: url('https://www.transparenttextures.com/patterns/roses.png'), #ffe6e6;
@@ -42,6 +42,7 @@
             font-size: 2rem;
             color: #b30047;
             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
         }
 
         .flap {
@@ -60,25 +61,30 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background: #fff4f4;
+            background: #fffafa;
+            border: 1.5px solid #e89a9a;
+            border-radius: 8px;
             top: 0;
             left: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-start;
+            align-items: flex-start;
             flex-direction: column;
             transform: translateY(100%);
             transition: transform 0.6s ease 0.6s;
-            padding: 20px;
+            padding: 24px;
             box-sizing: border-box;
-            text-align: center;
+            text-align: left;
+            overflow-y: auto;
+            max-height: 100%;
         }
 
         .message p {
-            margin: 1px 0 0;
-            font-size: 1.2rem;
+            margin: 14px 0 0 0;
+            font-size: 1.25rem;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.8;
+            letter-spacing: 0.01em;
         }
 
         .message .heart {
@@ -118,6 +124,14 @@
                 font-size: 1rem;
             }
         }
+
+        .bouquet {
+            display: block;
+            margin: 10px auto 0 auto;
+            max-width: 120px;
+            width: 60%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -126,11 +140,14 @@
             <h1>Apology Letter</h1>
             <div class="flap"></div>
             <div class="message">
-                <p>I love you, baby Coycoyy!</p>
-                <p>You are my everything.</p>
-                <p>You'll forever be my Valentine, over and over again... Mwaa!</p>
-                <p>See you on 14^^❤️</p>
-                <div class="heart">💖</div>
+                <p>My dearest,</p>
+                <p>I love you, bb, more than words I can express. I'm really deeply sorry for everything I've done that has hurt you. I realize my actions were wrong, and I truly regret it.</p>
+                <p>Bb, I'm willing to accept or do anything you want to make things right between us. I want you to know that I'm committed to changing and growing for you and for us.</p>
+                <p>Please forgive me, bb, for my mistakes. I know I don't deserve it, but I hope you can find it in your heart to give me another chance, please.</p>
+                <p>I'll wait patiently until you're ready to talk. I'll do everything in my power to make things right and work towards a better future for us.</p>
+                <p>I really, really love you, bb, and promise to change for the better. Naa rako, bb, for you, always.</p>
+                <p>I really, really love you.</p>
+                <img class="bouquet" src="flowerbouquetnobg2.png" alt="Flower Bouquet" />
             </div>
         </div>
     </div>
